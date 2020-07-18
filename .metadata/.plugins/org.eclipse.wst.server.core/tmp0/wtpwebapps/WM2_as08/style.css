@@ -1,0 +1,50 @@
+* {
+	font-family: "HelveticaNeue-Light";
+	font-size: 20px;
+}
+
+body {
+	background-image: url("b.jpg");
+	margin-left: 30%;
+	margin-top: 10%;
+}
+
+.button {
+	margin-left: 10px;
+	width: 121px;
+	background-color: #385A97;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+	border: 1px solid #DFE0E4;
+	border-radius: 3px;
+	color: white;
+}
+
+.inputText {
+	color: gray;
+}
+
+#registerButton {
+	margin-top: 20px;
+}
+
+.input {
+	padding-left: 10px;
+	height: 40px;
+}
+
+.tablea {
+	position: fixed;
+	left: 100px;
+	line-height: 50px;
+	color: white;
+}
+
+td {
+	padding-left: 50px;
+}
+
+
+
+
+

@@ -1,0 +1,32 @@
+AccessModifier ::= public | private | Epsilon
+StaticModifier ::= static | Epsilon
+ClassDeclaration ::= Modifiers class Ident  { ClassBody } | Epsilon
+Modifiers ::= AccessModifier StaticModifier
+ClassBody ::= ClassMember ClassBody | Epsilon
+ClassMember ::= Modifiers RestOfClassMember
+RestOfClassMember ::= Type RestOfClassMember2
+Type ::= int | double
+RestOfClassMember2 ::= Ident MethodOrAttr
+MethodOrAttr ::= MethodContinue | AttributeContinue
+MethodContinue ::= ( MethodParams ) { MethodBody }
+MethodParams ::= Parameter MethodParamContinue | Epsilon
+Parameter ::= Type Ident
+MethodParamContinue ::= , Parameter MethodParamContinue | Epsilon
+AttributeContinue ::= AssignAttr NextAttribute
+AssignAttr ::= = Expression | Epsilon
+NextAttribute ::= , Ident AttributeContinue | ;
+MethodBody ::= Statement MethodBody | Epsilon
+Statement ::= BlockDecl | Expression ;
+BlockDecl ::= { MethodBody }
+Expression ::= Term ExpressionOp  | null
+Term ::= intConst | doubleConst | Variable | ( Expression )  | new Ident ( MethodValues )
+ExpressionOp ::= ArithmOp Term ExpressionOp  | Epsilon
+ArithmOp ::= + | - | * | / | =
+Statement ::= IfElseBlock | WhileBlock | ReturnBlock | VarDecl
+IfElseBlock ::= if ( BoolExpression ) Statement else Statement
+WhileBlock ::= while ( BoolExpression ) Statement
+ReturnBlock ::= return Expression ;
+VarDecl ::= Type Ident = Expression ; 
+BoolExpression ::= true | false | Expression CompareOperator Expression 
+CompareOperator ::= > | < | == | !=
+

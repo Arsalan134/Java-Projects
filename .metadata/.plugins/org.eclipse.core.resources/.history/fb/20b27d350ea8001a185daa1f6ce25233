@@ -1,0 +1,40 @@
+import akka.actor.typed.ActorRef;
+import akka.actor.typed.Behavior;
+import akka.actor.typed.javadsl.*;
+
+public class Main extends AbstractBehavior<Main.SayHello> {
+
+	public static class SayHello {
+		public final String name;
+
+		public SayHello(String name) {
+			this.name = name;
+		}
+	}
+
+	private final ActorRef<Restaurant.PrepareFood> greeter;
+
+	public static Behavior<SayHello> create() {
+		return Behaviors.setup(Main::new);
+	}
+
+	private Main(ActorContext<SayHello> context) {
+		super(context);
+		// #create-actors
+		greeter = context.spawn(Restaurant.create(), "greeter");
+		// #create-actors
+	}
+
+	@Override
+	public Receive<SayHello> createReceive() {
+		return newReceiveBuilder().onMessage(SayHello.class, this::onSayHello).build();
+	}
+
+	private Behavior<SayHello> onSayHello(SayHello command) {
+		// #create-actors
+		ActorRef<Restaurant.PrerearedFood> replyTo = getContext().spawn(GreeterBot.create(3), command.name);
+		greeter.tell(new Restaurant.PrepareFood(command.name, replyTo));
+		// #create-actors
+		return this;
+	}
+}

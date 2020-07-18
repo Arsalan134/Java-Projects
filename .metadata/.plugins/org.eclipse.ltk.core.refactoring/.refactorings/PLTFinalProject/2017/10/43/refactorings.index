@@ -1,0 +1,17 @@
+1508155094866	Move folder
+1508166198585	Delete element
+1508210634678	Delete element
+1508210921492	Rename field 'inputIndex'
+1508211338819	Rename local variable 'tok'
+1508211614657	Rename method 'parseExpr'
+1508212480416	Rename method 'parseIfStatment'
+1508213212755	Delete element
+1508216388038	Rename method 'peek'
+1508219837632	Rename method 'peekAtOffset'
+1508220153028	Rename local variable 'first'
+1508220157054	Rename local variable 'second'
+1508220306014	Rename local variable 'arrayList'
+1508220617515	Delete element
+1508221205472	Move file
+1508221217136	Rename resource 'Untitled 1'
+1508221226451	Rename resource 'BNF'

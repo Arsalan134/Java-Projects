@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="231"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+		<item key="actionSetFilter" value="true"/>
+		<item key="uncategorizedFilter" value="true"/>
+		<item key="internalFilter" value="true"/>
+	</section>
+	<section name="EditorSelectionDialog">
+		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="false"/>
+		<item key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION" value=".jar"/>
+		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="org.eclipse.jdt.ui.JARDescEditor"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_WIDTH" value="450"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_HEIGHT" value="440"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
+		<item key="dialogHeight" value="-1"/>
+		<item key="dialogWidth" value="-1"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="InstallationDialogSettings">
+		<item key="DIALOG_WIDTH" value="702"/>
+		<item key="DIALOG_FONT_NAME" value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText"/>
+		<item key="DIALOG_HEIGHT" value="652"/>
+		<item key="DIALOG_X_ORIGIN" value="-25"/>
+		<item key="DIALOG_Y_ORIGIN" value="-95"/>
+	</section>
+	<section name="org.eclipse.ui.internal.dialogs.WorkbenchEditorsDialog">
+		<item key="sort" value="0"/>
+		<item key="allPersp" value="false"/>
+		<list key="columns">
+			<item value="199"/>
+			<item value="399"/>
+		</list>
+		<list key="bounds">
+			<item value="407"/>
+			<item value="44"/>
+			<item value="622"/>
+			<item value="448"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/Users/Arsalan/Downloads/Sample.zip"/>
+		</list>
+	</section>
+	<section name="PreferencesExportWizard">
+		<item key="" value="/Users/Arsalan/Desktop/salam.epf"/>
+		<item key="WizardPreferencesExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="false"/>
+		<item key="WizardPreferencesExportPage1.EXPORT_ALL_PREFERENCES_ID" value="true"/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/Arsalan/Desktop/salam.epf"/>
+		</list>
+	</section>
+	<section name="FileExtensionDialogSettings">
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_FONT_NAME" value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText"/>
+		<item key="DIALOG_HEIGHT" value="244"/>
+		<item key="DIALOG_X_ORIGIN" value="58"/>
+		<item key="DIALOG_Y_ORIGIN" value="22"/>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/arsalaniravani/Desktop/b.zip"/>
+			<item value="/Users/arsalaniravani/Desktop/hw1.zip"/>
+			<item value="/Users/arsalaniravani/Documents/database2.zip"/>
+			<item value="/Users/arsalaniravani/Documents/database.zip"/>
+			<item value="/Users/arsalaniravani/Documents/hw2.zip"/>
+			<item value="/Users/Arsalan/Desktop/dist.zip"/>
+			<item value="/Users/Arsalan/Desktop/StudentDistribution.zip"/>
+			<item value="/Users/Arsalan/Desktop/Arsalan.zip"/>
+			<item value="/Users/Arsalan/Desktop/vusal.zip"/>
+			<item value="/Users/Arsalan/Desktop/ArsalanIravani.zip"/>
+			<item value="/Users/Arsalan/Desktop/Musabir.zip"/>
+			<item value="/Users/Arsalan/Desktop/Lab1_ArsalanIravani.zip"/>
+			<item value="/Users/Arsalan/Desktop/LL1Lexer.zip"/>
+			<item value="/Users/Arsalan/Desktop/LL1LexerAndParcer.zip"/>
+			<item value="/Users/Arsalan/Desktop/WM2_as08.zip"/>
+			<item value="/Users/Arsalan/Desktop/WM2_as07_airavani2018.zip"/>
+			<item value="/Users/Arsalan/Desktop/WM2_as06_airavani2018.zip"/>
+			<item value="/Users/Arsalan/Desktop/WM2_as04_airavani2018.zip"/>
+			<item value="/Users/Arsalan/Desktop/WM2_as03_airavani2018.zip"/>
+		</list>
+	</section>
+</section>

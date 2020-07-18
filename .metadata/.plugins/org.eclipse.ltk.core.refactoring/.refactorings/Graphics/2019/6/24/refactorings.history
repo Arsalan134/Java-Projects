@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;angleX&apos; in &apos;Line&apos; to &apos;angle&apos;&#x0A;- Original project: &apos;Graphics&apos;&#x0A;- Original element: &apos;Line.angleX&apos;&#x0A;- Renamed element: &apos;Line.angle&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;angleX&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;{Line.java[Line^angleX" name="angle" references="true" setter="false" stamp="1560253797166" textual="false" version="1.0"/>
+</session>

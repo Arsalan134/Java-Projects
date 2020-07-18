@@ -1,0 +1,48 @@
+1514200404447	Delete element
+1514200428010	Move compilation unit
+1514200437112	Move compilation unit
+1514200440157	Move compilation unit
+1514200446009	Move compilation unit
+1514200458541	Move compilation unit
+1514200476899	Move compilation unit
+1514200499308	Move compilation unit
+1514204822205	Delete element
+1514212913968	Rename type 'ArgumentListOfCalledFunction'
+1514213158456	Rename type 'ParameterOfCalledFunction'
+1514213183393	Rename type 'Parameter'
+1514213190270	Rename type 'Argument'
+1514213201920	Rename type 'Parameter2'
+1514213240078	Rename type 'ArgumentList'
+1514213272984	Rename type 'ArgumentOfCalledFunction'
+1514213598232	Delete element
+1514213624995	Delete element
+1514214008534	Rename local variable 'var'
+1514214520995	Rename local variable 'val'
+1514215026919	Rename field 'value'
+1514215272347	Rename local variable 'value'
+1514223445626	Rename local variable 'expression'
+1514224314598	Rename local variable 'arguments'
+1514224321285	Rename field 'arguments'
+1514224329436	Rename method 'getArguments'
+1514310822616	Rename method 'setValue'
+1514310862225	Rename local variable 'value'
+1514311029175	Rename field 'name'
+1514311033481	Rename local variable 'name'
+1514311070931	Rename method 'getName'
+1514312038070	Rename method 'getValue'
+1514312976283	Rename local variable 'v'
+1514316834891	Rename field 'value'
+1514316841159	Rename local variable 'value'
+1514317660372	Rename method 'getValue'
+1514322465521	Rename method 'isNumber2'
+1514327066761	Rename local variable 'p'
+1514397851467	Rename method 'lookUp'
+1514398097463	Rename local variable 'p'
+1514411650578	Rename method 'updateValueOfVariableTo'
+1514474473822	Rename field 'c'
+1514474477515	Rename field 'XCodebackgroundColor'
+1514474481207	Rename field 'XcodebackgroundColor'
+1514477090895	Rename method 'printScope'
+1514477873900	Delete element
+1514496468573	Rename local variable 'comp'
+1514503535137	Rename local variable 'value'

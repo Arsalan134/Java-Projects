@@ -1,0 +1,34 @@
+
+import akka.actor.typed.Behavior;
+import akka.actor.typed.javadsl.*;
+
+public class RestaurantBot extends AbstractBehavior<Restaurant.PrerearedFood> {
+
+    public static Behavior<Restaurant.PrerearedFood> create(int max) {
+        return Behaviors.setup(context -> new RestaurantBot(context, max));
+    }
+
+    private final int max;
+    private int greetingCounter;
+
+    private RestaurantBot(ActorContext<Restaurant.PrerearedFood> context, int max) {
+        super(context);
+        this.max = max;
+    }
+
+    @Override
+    public Receive<Restaurant.PrerearedFood> createReceive() {
+        return newReceiveBuilder().onMessage(Restaurant.PrerearedFood.class, this::onPrepeared).build();
+    }
+
+    private Behavior<Restaurant.PrerearedFood> onPrepeared(Restaurant.PrerearedFood food) {
+        greetingCounter++;
+        getContext().getLog().info("Greeting {} for {}", greetingCounter, food.whom);
+        if (greetingCounter == max) {
+            return Behaviors.stopped();
+        } else {
+            food.from.tell(new Restaurant.PrepareFood(food.whom, getContext().getSelf()));
+            return this;
+        }
+    }
+}

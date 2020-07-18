@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;alpha&apos; in &apos;Line&apos; to &apos;height&apos;&#x0A;- Original project: &apos;Graphics&apos;&#x0A;- Original element: &apos;Line.alpha&apos;&#x0A;- Renamed element: &apos;Line.height&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;alpha&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;{Line.java[Line^alpha" name="height" references="true" setter="false" stamp="1561987170145" textual="false" version="1.0"/>
+</session>

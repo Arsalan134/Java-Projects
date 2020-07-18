@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HttpSession</title>
+</head>
+<body>
+	<p>Servlet API provides Session management through <code>HttpSession</code> interface. 
+	We can get session from HttpServletRequest object using following methods. 
+	HttpSession allows us to set objects as attributes that can be retrieved in future requests.</p>
+
+	<ol>
+	<li><strong>HttpSession getSession()</strong> - This method always returns a HttpSession object. It returns the session object attached with the request, if the request has no session attached, then it creates a new session and return it.</li>
+	<li><strong>HttpSession getSession(boolean flag)</strong> - This method returns HttpSession object if request has session else it returns null.</li>
+	</ol>
+	
+	<p>Some of the important methods of HttpSession are:</p>
+	
+	<ol>
+	<li><strong>String getId()</strong> - Returns a string containing the unique identifier assigned to this session.</li>
+	<li><strong>Object getAttribute(String name)</strong> - Returns the object bound with the specified name in this session, or null if no object is bound under the name. Some other methods to work with Session attributes are <code>getAttributeNames()</code>, <code>removeAttribute(String name)</code> and <code>setAttribute(String name, Object value)</code>.</li>
+	<li><strong>long getCreationTime()</strong> - Returns the time when this session was created, measured in milliseconds since midnight January 1, 1970 GMT. We can get last accessed time with <code>getLastAccessedTime()</code> method.</li>
+	<li><strong>setMaxInactiveInterval(int interval)</strong> - Specifies the time, in <u>seconds</u>, between client requests before the servlet container will invalidate this session. By default, it is 1800 sec. A negative time indicates the session should never timeout. We can get session timeout value from <code>getMaxInactiveInterval()</code> method.</li>
+	<li><strong>ServletContext getServletContext()</strong> - Returns ServletContext object for the application.</li>
+	<li><strong>boolean isNew()</strong> - Returns true if the client does not yet know about the session or if the client chooses not to join the session.</li>
+	<li><strong>void invalidate()</strong> - Invalidates this session then unbinds any objects bound to it.</li>
+	</ol>
+	
+	<form action="../SessionOne" method="post">
+		Employee Name <input type="text"  name="name"> <BR>
+		Employee Address <input type="text" name=address> <br> 
+		Employee Age <input type="text" name="age"> <br> <br>
+		<br> After filling this form submit this form by clicking Continue,
+		then continue filling second form.
+		<br><br> 
+		<input type="submit" value="Continue">
+	</form>
+
+</body>
+</html>

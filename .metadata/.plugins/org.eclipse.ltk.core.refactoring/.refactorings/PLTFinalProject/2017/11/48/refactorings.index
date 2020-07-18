@@ -1,0 +1,38 @@
+1511245328368	Rename local variable 'left'
+1511245334389	Rename local variable 'second'
+1511245481881	Rename method 'peekAtOffset'
+1511245520851	Rename method 'looksLikeExprEnd'
+1511245921794	Rename local variable 'expr'
+1511715763552	Rename method 'peekAtOffset'
+1511715770514	Rename method 'peek'
+1511716726162	Rename method 'peekLast'
+1511716746844	Rename local variable 'actual'
+1511716754464	Rename local variable 'token'
+1511716766562	Rename local variable 'tokenType'
+1511718281611	Rename local variable 't'
+1511718670561	Rename local variable 'varName'
+1511718940832	Rename local variable 'token'
+1511719175240	Delete element
+1511719972059	Rename type 'Int'
+1511720042080	Rename type 'IntegerType'
+1511720707168	Rename method 'peekAt'
+1511720719627	Rename method 'popElementAt'
+1511721134437	Rename type 'Var'
+1511726318296	Rename local variable 'token2'
+1511728629779	Rename type 'SIf'
+1511729844982	Move compilation unit
+1511729849367	Move compilation unit
+1511729871567	Move compilation unit
+1511729880927	Move compilation unit
+1511729896902	Move compilation unit
+1511729899921	Move compilation unit
+1511729920048	Move compilation unit
+1511729926393	Move compilation unit
+1511729938234	Move compilation unit
+1511729948452	Move compilation unit
+1511729975472	Move compilation unit
+1511730022766	Move compilation unit
+1511730132692	Move compilation units
+1511730448456	Move compilation unit
+1511730462753	Move compilation unit
+1511730478730	Move compilation unit

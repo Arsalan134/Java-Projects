@@ -1,0 +1,28 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+import akka.actor.typed.ActorSystem;
+
+public class AkkaQuickstart {
+	public static void main(String[] args) {
+		// #actor-system
+		final ActorSystem<Main.PrepareFoodFor> greeterMain = ActorSystem.create(Main.prepare(), "helloakka");
+		// #actor-system
+
+		Scanner in = new Scanner(System.in);
+		System.out.print("Enter customer name:\t");
+		String foodFor = in.next();
+ 
+		// #main-send-messages
+		greeterMain.tell(new Main.PrepareFoodFor(foodFor));
+		// #main-send-messages
+
+		try {
+			System.out.println(">>> Press ENTER to exit <<<");
+			System.in.read();
+		} catch (IOException ignored) {
+		} finally {
+			greeterMain.terminate();
+		}
+	}
+}

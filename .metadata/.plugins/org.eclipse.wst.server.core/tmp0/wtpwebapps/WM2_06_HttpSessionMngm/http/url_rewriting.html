@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>URL-Rewriting</title>
+</head>
+<body>
+	<p>As we saw in last section that we can manage a session with HttpSession but if we 
+	disable the cookies in browser, it won't work because server will not receive the cookies from client.
+	Servlet API provides support for URL rewriting that we can use to manage session in this case.</p>
+	<p>The best part is that from coding point of view, it's very easy to use and involves one 
+	step - encoding the URL. Another good thing with Servlet URL Encoding is that it's a 
+	fallback approach and it kicks in only if browser cookies are disabled.</p>
+	<p>We can encode URL with HttpServletResponse <code>encodeURL()</code> method and if we 
+	have to redirect the request to another resource and we want to provide session information, 
+	we can use <code>encodeRedirectURL()</code> method.</p>
+
+	<form action="../URL1" method="get">
+		Name <input type="text"  name="name"> <BR>
+		Father name <input type="text" name="fname"> <br> <br>
+		<br> After filling this form submit this form by clicking Next,
+		then continue filling second form.
+		<br><br> 
+		<input type="submit" value="Next">
+	</form>
+
+</body>
+</html>

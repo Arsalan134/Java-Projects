@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="javaScript.js" charset="utf-8"></script>
+<title>Task 4</title>
+
+<style>
+* {
+	font-size: 20px;
+	font-family: Helvica Neue;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+tr, th, td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+	font-size: 20px;
+	font-family: Helvica Neue;
+}
+</style>
+
+</head>
+
+<body>
+	<form action="./Task4" method="post">
+		<table >
+			<tr>
+				<td>Full Name</td>
+				<td><input type="text" name="fullname" placeholder="John Smith"
+					id="fullname"></td>
+			</tr>
+
+			<tr>
+				<td>Birth Date</td>
+				<td><input type="date" name="bday" placeholder="25-01-1974"
+					id="bday"></td>
+			</tr>
+			<tr>
+				<td>User Name</td>
+				<td><input type="email" name="uname"
+					placeholder="example@domain.com" id="uname"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="pass1" id="pass1"></td>
+			</tr>
+
+			<tr>
+				<td>Confirm</td>
+				<td><input type="password" name="pass2" id="pass2"></td>
+			</tr>
+
+			<tr>
+				<td>Sex</td>
+				<td><input type="radio" name="sex" value="male" id="male">
+					Male &nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="sex"
+					value="female" id="female"> Female</td>
+			</tr>
+			<tr>
+				<td>Major</td>
+				<td><select name="major" id="major">
+						<option value="null"></option>
+						<option value="BCS">BCS</option>
+						<option value="BIT">BIT</option>
+						<option value="BSysEng">BSysEng</option>
+						<option value="BCE">BCE</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><input type="reset"></td>
+				<td><input type="submit" onclick="validate4()"></td>
+		</table>
+	</form>
+
+</body>
+</html>

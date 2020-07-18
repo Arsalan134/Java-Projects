@@ -1,0 +1,25 @@
+1493632299313	Rename local variable 'errorMissingParameters'
+1493634340860	Rename type 'Register'
+1493634358162	Copy file
+1493634417500	Copy file
+1493643922555	Rename method 'validateEmail'
+1493644059998	Rename local variable 'name'
+1493644219657	Rename local variable 'username'
+1493644230308	Rename local variable 'name'
+1493644250994	Rename local variable 'email'
+1493644771596	Rename local variable 'username'
+1493644777803	Rename method 'validateUsername'
+1493648319024	Convert local variable 'inserter' to field
+1493648325828	Convert local variable 'connection' to field
+1493648452159	Convert local variable 'dispatcher' to field
+1493649554464	Rename local variable 'registeredPageLink'
+1493649571640	Convert local variable 'dispatcher' to field
+1493651212723	Rename type 'Find'
+1493651291863	Rename type 'Search'
+1493714922674	Rename local variable 's'
+1493927227026	Rename local variable 'query'
+1493927626962	Delete element
+1493930464247	Delete element
+1493935576495	Rename resource 'maxresdefault.jpg'
+1493935821408	Rename resource '518079-background-hd.jpg'
+1493935850263	Delete element

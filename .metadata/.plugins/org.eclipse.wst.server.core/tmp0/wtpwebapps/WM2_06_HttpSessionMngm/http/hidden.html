@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hidden Form Fields - Page1</title>
+</head>
+<body>
+	<p>We can create a unique hidden field in the HTML and when user
+		starts navigating, we can set its value unique to the user and keep
+		track of the session. This method can't be used with links because it
+		needs the form to be submitted every time request is made from client
+		to server with the hidden field. Also it's not secure because we can
+		get the hidden field value from the HTML source and use it to hack the
+		session.</p>
+	<p>The disadvantage of using the hidden tags is that it only allows
+		to preserve String values (or TextValues). It does NOT allow Java
+		Objects as values.</p>
+
+	<br>
+	<h2>Let's Test it out!</h2>
+	
+	<form action="../hidden1" method="get">
+		Employee Name <input type="text" name="e_name"> <BR>
+		Employee ID <input type="number" name="e_id"> <br> <br>
+		<br> After filling this form submit this form by clicking Next,
+		then continue filling second form. <br> <br> <input
+			type="submit" value="Next">
+	</form>
+
+</body>
+</html>

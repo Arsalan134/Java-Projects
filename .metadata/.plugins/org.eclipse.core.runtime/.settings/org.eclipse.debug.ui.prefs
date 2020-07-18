@@ -1,0 +1,12 @@
+Console.console_tab_width=6
+Console.highWaterMark=88000
+Console.limitConsoleOutput=false
+eclipse.preferences.version=1
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
+org.eclipse.debug.ui.RelaunchAndTerminateLaunchAction=true
+org.eclipse.debug.ui.cancel_launch_with_compile_errors=always
+org.eclipse.debug.ui.save_dirty_editors_before_launch=always
+org.eclispe.debug.ui.Debug_view.debug_toolbar_hidden_perspectives=org.eclipse.ptp.debug.ui.PTPDebugPerspective
+pref_state_memento.org.eclipse.debug.ui.DebugVieworg.eclipse.debug.ui.DebugView=<?xml version\="1.0" encoding\="UTF-8"?>\n<DebugViewMemento org.eclipse.debug.ui.BREADCRUMB_DROPDOWN_AUTO_EXPAND\="false"/>
+preferredDetailPanes=DefaultDetailPane\:DefaultDetailPane|
+preferredTargets=default\:default|default,org.eclipse.wst.jsdt.chromium.debug.ui.toggleTargetId\:default|org.eclipse.lsp4e.debug.toggleBreakpointTarget,org.eclipse.ptp.debug.parallel.breakpoint\:org.eclipse.ptp.debug.parallel.breakpoint|default,org.eclipse.php.debug.ui.PHPtoggleTargetFactory\:default|default,org.eclipse.lsp4e.debug.toggleBreakpointTarget,org.eclipse.ptp.debug.parallel.breakpoint\:default|

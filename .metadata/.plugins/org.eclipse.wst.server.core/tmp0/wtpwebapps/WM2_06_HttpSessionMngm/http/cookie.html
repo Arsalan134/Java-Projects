@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cookies</title>
+</head>
+<body>
+	<p>Cookies are small piece of information that is sent by web
+		server in response header and gets stored in the browser cookies. When
+		client make further request, it adds the cookie to the request header
+		and we can utilize it to keep track of the session. We can maintain a
+		session with cookies but if the client disables the cookies, then it
+		won’t work.</p>
+	<ol>
+		Cookies we can classified two types
+		<li>InMemory Cookies</li> The cookies that allocate memory on the
+		browser window are called inmemory cookies. This cookies will be
+		destroyed automatically once browser window is closed.
+		<li>Persistent Cookies</li> The cookies allocate memory on the client
+		machine file system(in the form of files) are called persistence
+		cookies. These persistent cookies will not be destroyed browser window
+		is closed.
+	</ol>
+
+
+	<pre>
+		<p>
+		To create Cookie
+		================== 
+		Cookie(String,String) 
+		Cookie	ck1=new Cookie("uname","raja"); 
+	 	Cookie ck2=new Cookie("id","2900");
+
+		Note: Default age of the cookie -1 
+		
+		ck2.setMaxAge(3600); //sec
+		
+		HTTP protocol uses set-cookie response headers to send the cookie to the browser or
+		client client machine along with the response.
+
+		resp.addCookie(ck1);
+		resp.addCookie(ck2); 
+		
+		
+		To delete Cookies
+		====================== 
+		We cannot not delete cookies from server side programs bcz they allocated memory at 
+		client side In memory cookies will be destroyed when browser window is closed. 
+		Persistent cookies will be destroyed when expiry time completes. 
+		
+		To maxage =========
+		ck1.getMaxAge();//-1 
+		ck2.getMaxAge();//3600 
+		
+		
+		For setting and getting comments
+		================================== 
+		ck1.setComment("user name related comment"); 
+		String s=ck1.getComment(); 
+		
+		The filename will be username@waname[No] 
+		
+		Disadvantages ================== 
+		Allowes only text values doesnot allow java objects as values. persistent cookie 
+		doesn't have secracy cookies can be restricted coming to the browser.</p> </pre>
+
+	<br>
+	<h2>Let's Test it out!</h2>
+	<a href="../ck1">Go to SetCookies Servlet</a> <br>
+	<a href="../ck2">Go to ShowCookies Servlet</a> <br>
+
+</body>
+</html>

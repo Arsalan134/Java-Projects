@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;b&apos; in &apos;Main.Main.returnsOneWayHashPassword()&apos; to &apos;encodedLetterOfAPassword&apos;&#x0A;- Original project: &apos;SRS&apos;&#x0A;- Original element: &apos;Main.Main.returnsOneWayHashPassword().b&apos;&#x0A;- Renamed element: &apos;b&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;b&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;Main{Main.java[Main~returnsOneWayHashPassword@b!804!852!809!809!C!0!false" name="encodedLetterOfAPassword" references="true" stamp="1534681281228" version="1.0"/>
+</session>

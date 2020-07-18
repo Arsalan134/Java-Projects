@@ -1,0 +1,9 @@
+BODY { background-color: #FDF5E6 }
+A:hover { color: red }
+TH { background-color: #FFAD00
+}
+.TITLE   { border-width: 5px;
+	       background-color: #EF8429;
+           font-size: 28px;
+           font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,18 @@
+1551044464796	Rename field 'limitStudent'
+1551044488452	Rename local variable 'passingScore'
+1551044800131	Rename field 'desiredUniversities'
+1551044803324	Rename field 'preferencelist'
+1551044992014	Rename method 'addStudent'
+1551045352693	Rename method 'addUni'
+1551045366390	Rename method 'printDesiredUniversities'
+1551045369681	Rename method 'printReferencelist'
+1551045518904	Encapsulate field 'id'
+1551045794881	Encapsulate field 'name'
+1551045835844	Rename field 'studenList'
+1551046557288	Encapsulate field 'passingScore'
+1551046582120	Encapsulate field 'name'
+1551047051702	Convert local variable 'r' to field
+1551048841460	Encapsulate field 'capacity'
+1551049184808	Convert local variable 'r' to field
+1551049495751	Encapsulate field 'acceptedUniversity'
+1551049754225	Rename method 'noAvailableSeatsToApply'

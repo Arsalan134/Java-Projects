@@ -1,0 +1,9 @@
+1551054322750	Rename method 'numberOfPendingUniversities'
+1551104550672	Rename local variable 'university'
+1551104598039	Rename local variable 'student'
+1551105995084	Rename method 'virtualScore'
+1551112852178	Delete element
+1551112858882	Delete element
+1551113879886	Rename local variable 'randomscore'
+1551122286888	Rename method 'availableSeatsToApply'
+1551122346985	Rename method 'existUniversityThatIsNotAppliedBySomeRejectedStudent'

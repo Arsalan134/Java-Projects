@@ -1,0 +1,76 @@
+import akka.actor.typed.ActorRef;
+import akka.actor.typed.Behavior;
+import akka.actor.typed.javadsl.*;
+
+import java.util.Objects;
+
+// #greeter
+public class Restaurant extends AbstractBehavior<Restaurant.PrepareFood> {
+
+  public static final class PrepareFood {
+    public final String whom;
+    public final ActorRef<PrerearedFood> replyTo;
+
+    public PrepareFood(String whom, ActorRef<PrerearedFood> replyTo) {
+      this.whom = whom;
+      this.replyTo = replyTo;
+    }
+  }
+
+  public static final class PrerearedFood {
+    public final String whom;
+    public final ActorRef<PrepareFood> from;
+
+    public PrerearedFood(String whom, ActorRef<PrepareFood> from) {
+      this.whom = whom;
+      this.from = from;
+    }
+
+// #greeter
+    @Override
+    public boolean equals(Object o) {
+      if (this == o) return true;
+      if (o == null || getClass() != o.getClass()) return false;
+      PrerearedFood food = (PrerearedFood) o;
+      return Objects.equals(whom, food.whom) &&
+              Objects.equals(from, food.from);
+    }
+
+    @Override
+    public int hashCode() {
+      return Objects.hash(whom, from);
+    }
+
+    @Override
+    public String toString() {
+      return "Greeted{" +
+              "whom='" + whom + '\'' +
+              ", from=" + from +
+              '}';
+    }
+// #greeter
+  }
+
+  public static Behavior<PrepareFood> create() {
+    return Behaviors.setup(Restaurant::new);
+  }
+
+  private Restaurant(ActorContext<PrepareFood> context) {
+    super(context);
+  }
+
+  @Override
+  public Receive<PrepareFood> createReceive() {
+    return newReceiveBuilder().onMessage(PrepareFood.class, this::onGreet).build();
+  }
+
+  private Behavior<PrepareFood> onGreet(PrepareFood command) {
+    getContext().getLog().info("Hello {}!", command.whom);
+    //#greeter-send-message
+    command.replyTo.tell(new PrerearedFood(command.whom, getContext().getSelf()));
+    //#greeter-send-message
+    return this;
+  }
+}
+// #greeter
+

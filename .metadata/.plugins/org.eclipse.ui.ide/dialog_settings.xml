@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/Users/Arsalan/blog"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item key="DIALOG_WIDTH" value="484"/>
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_X_ORIGIN" value="400"/>
+		<item key="DIALOG_Y_ORIGIN" value="175"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/Arsalan/Desktop/LL1Parser"/>
+			<item value="/Users/Arsalan/Downloads/JavaCompiler-master"/>
+			<item value="/Users/Arsalan/Downloads/WM2_13_JDBC_JSP-2"/>
+			<item value="/Users/Arsalan/Downloads/WM2_13_JDBC_JSP"/>
+			<item value="/Users/Arsalan/Downloads/WM2_12_JDBC"/>
+			<item value="/Users/Arsalan/Downloads/WM2_11_MVC"/>
+			<item value="/Users/Arsalan/Downloads/WM2_10_JavaBeansWithJSP"/>
+			<item value="/Users/Arsalan/Downloads/WM2_09_JspEL-2"/>
+			<item value="/Users/Arsalan/Downloads/WM2_08_JSPExceptionHandling"/>
+			<item value="/Users/Arsalan/Downloads/WM2_07_JSPs"/>
+			<item value="/Users/Arsalan/Downloads/WM2_06_HttpSessionMngm-2"/>
+			<item value="/Users/Arsalan/Desktop/WM2_06_HttpSessionMngm"/>
+			<item value="/Users/Arsalan/Downloads/WM2_06_HttpSessionMngm"/>
+			<item value="/Users/Arsalan/Downloads/WM2_01_HelloWorld"/>
+			<item value="/Volumes/Reserve/Java Projects"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="344"/>
+		<item key="DIALOG_Y_ORIGIN" value="198"/>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item key="FilterByLocation" value="false"/>
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode/&gt;&#x0A;&lt;/History&gt;"/>
+		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
+		<item key="ShowDerived" value="false"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_FONT_NAME" value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText"/>
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_X_ORIGIN" value="340"/>
+			<item key="DIALOG_Y_ORIGIN" value="56"/>
+		</section>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_WIDTH" value="593"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="528"/>
+		<item key="DIALOG_X_ORIGIN" value="344"/>
+		<item key="DIALOG_Y_ORIGIN" value="22"/>
+	</section>
+	<section name="ResourceNavigator">
+		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
+		<item key="ResourceWorkingSetFilter.STORE_WORKING_SET" value="Aggregate for window 1483212439321"/>
+		<item key="LINK_NAVIGATOR_TO_EDITOR" value="true"/>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/arsalaniravani/Downloads/oracle-lab-multimedia"/>
+			<item value="/Users/arsalaniravani/Downloads/oracle-project-template"/>
+		</list>
+	</section>
+</section>
